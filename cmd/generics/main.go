@@ -54,7 +54,6 @@ func Display[T NumberConstraint](v T) {
 
 func main() {
 	var v NyNumber = 10
-
 	Display(v)
 
 	var iter Iterator[any]
